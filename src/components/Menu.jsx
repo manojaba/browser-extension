@@ -28,7 +28,7 @@ function Menu() {
 
             <button onClick={() => toggleMode()} className='bg-[#EEEEEE] hover:bg-[#C6C6C6] p-[16px] rounded-[12px] dark:bg-[#2F364B] dark:hover:bg-[#535868] hover:cursor-pointer focus:outline-[1px] focus:outline-[#F25C54]'>
                 {
-                    isDarkMode ? <img src='/images/icon-sun.svg' alt='dark mode'></img> : <img src='./images/icon-moon.svg' alt='light mode'></img>
+                    isDarkMode ? <img src='./images/icon-sun.svg' alt='dark mode'></img> : <img src='./images/icon-moon.svg' alt='light mode'></img>
                 }
 
             </button>
