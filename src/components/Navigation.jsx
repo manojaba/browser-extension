@@ -2,7 +2,7 @@ import React from 'react'
 
 function Navigation(prop) {
     return (
-        <div className='mb-[32px] mt-[40px]  md:flex items-center justify-between'>
+        <div className='mb-[32px] mt-[40px]  md:flex items-center justify-between transition-all duration-500 ease-in-out'>
             <h1 className='text-[#091540] text-[34px] tracking-[-1px] leading-[100%] font-bold text-center dark:text-[#FBFDFE]'>Extensions List</h1>
 
             <div className='text-[20px] font-normal leading-[140%] tracking-[-0.3px] flex  justify-between px-[14px] pt-[24px] md:pt-0 md:px-0 md:gap-[12px]'>

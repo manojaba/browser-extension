@@ -4,7 +4,7 @@ function Extension({ logo, name, description, isActive, handleActive, handleRemo
 
 
     return (
-        <div className={`bg-[#FBFDFE] dark:bg-[#202535]  rounded-[20px] p-[20px] h-[200px] border-[1px] border-[#D6E2F5] dark:border-[#535868] shadow-[0_2px_4px_0_rgba(194,206,225,0.3)]	relative`}>
+        <div className={`bg-[#FBFDFE] dark:bg-[#202535]  rounded-[20px] p-[20px] h-[200px] border-[1px] border-[#D6E2F5] dark:border-[#535868] shadow-[0_2px_4px_0_rgba(194,206,225,0.3)] transition-all duration-500 ease-in-out	relative`}>
             <div className='flex gap-[16px] items-start '>
                 <img src={logo}></img>
 

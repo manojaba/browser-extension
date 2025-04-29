@@ -10,7 +10,7 @@ function Menu() {
         setIsDarkMode(!isDarkMode);
     }
     return (
-        <div className='flex items-center justify-between px-[12px]  md:px-[16px] py-[8px] md:py-[12px] bg-white dark:bg-[#202535] border-[1px] border-[#D6E2F5] rounded-[10px] drop-shadow drop-shadow-[#D9E5F4] dark:drop-shadow-none dark:border-none '>
+        <div className='flex items-center justify-between px-[12px]  md:px-[16px] py-[8px] md:py-[12px] bg-white dark:bg-[#202535] border-[1px] border-[#D6E2F5] rounded-[10px] drop-shadow drop-shadow-[#D9E5F4] dark:drop-shadow-none dark:border-none transition-all duration-500 ease-in-out'>
 
             {
                 isDarkMode ? <svg xmlns="http://www.w3.org/2000/svg" width="179" height="41" fill="none" viewBox="0 0 179 41">
