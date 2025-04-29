@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@font-face {
+  font-family: 'NatoSans';
+  src: url("/fonts/NotoSans-VariableFont_wdth,wght.ttf") format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@layer base {
+  body {
+
+    font-family: 'NatoSans', sans-serif;
+  }
+}
